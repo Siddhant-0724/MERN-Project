@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  max-width: 1230px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-shadow: 0 0 35px #ddd;
+
+}
+a{
+  text-decoration: none;
+}
+ul li{
+  list-style: none;
+}
+button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+@import url("./components/header/Header.css");
+ @import url("./mainpages/products/Product.css");
